@@ -7,23 +7,23 @@ region = "vars.region"
 
 variable "region"{
 description = "defining region"
-type = "string"
+type = string
 }
 
 variable "ami"{
-type = "string"
+type = string
 }
 
 variable "instance_type"{
-type = "string"
+type = string
 }
 variable "subnet_id"{
-type = "string"
+type = string
 }
 
 variable "first"{
-type = "string"
-name = "first"
+type = string
+name = first
 }
 
 
